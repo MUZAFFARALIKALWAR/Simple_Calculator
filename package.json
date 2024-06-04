@@ -1,9 +1,13 @@
 {
-  "name": "calculator",
+  "name": "muzaffar_simple_calculator",
   "version": "1.0.0",
   "description": "A simple calculator with TypeScript, Node.js and Inquiere",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
